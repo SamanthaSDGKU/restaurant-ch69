@@ -3,21 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mystyle.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="menu-nav">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <h1>Lorem</h1>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="menu.html">Menu</a>
                 <a href="togo.html">To go</a>
             </nav>
+            <div>
+                <i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
         </div>
     </header>
-    <main>
+    <main class="container">
+        <section class="month-dish-container">
+            <div>
+                <img src="salad.png" alt="">
+            </div>
+            <div>
+                <h3>Healthy salad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet ea modi impedit architecto cum aliquid libero quisquam iste sed natus doloribus, consequatur consequuntur vel dolore quam dicta deleniti rem enim.</p>
+                <div class="details-flex">
+                    <p>$29.00</p>
+                    <a class="btn" href="#">Order now!</a>
+                </div>
+            </div>
+        </section>
 
+        <section class="dishes-container">
+            <div class="dish-item">
+                <p>$ 30.00</p>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, officia.</p>
+            </div>
+            <div class="dish-item">
+                <p>$ 30.00</p>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, officia.</p>
+            </div>
+            <div class="dish-item">
+                <p>$ 30.00</p>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, officia.</p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
